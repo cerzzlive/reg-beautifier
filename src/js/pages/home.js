@@ -1,1 +1,1 @@
-addTitleBar('ประกาศ', 'News', '\uf0a1');
+addTitleBar('ประกาศ', 'News', 'volume');

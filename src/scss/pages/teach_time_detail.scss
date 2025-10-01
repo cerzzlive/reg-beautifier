@@ -95,8 +95,8 @@ div[align="center"] > #wrapper {
                               margin-inline-start: $card-padding;
 
                               &:before {
-                                content: '\f5a1';
-                                font-family: 'fa-solid';
+                                content: '\ea6b'; // ti-circle
+                                font-family: 'tabler-icons-outline';
                                 margin-inline-end: 0.5rem;
                               }
 
@@ -201,8 +201,8 @@ a[href*="d1=1"]:not([href*="printfriendly"]), a[href*="d2=1"]:not([href*="printf
     text-decoration: none !important;
   }
   &:before {
-    content: '\f359';
-    font-family: 'fa-solid';
+    content: '\eae9'; // ti-map
+    font-family: 'tabler-icons-outline';
     font-size: 1.5em;
     margin-left: 0.5em;
     margin-right: 0.25em;

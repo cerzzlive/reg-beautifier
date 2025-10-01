@@ -143,7 +143,7 @@
   },
   "web_accessible_resources": [
     {
-      "resources": ["images/*", "webfonts/*"],
+      "resources": ["images/*", "fonts/*"],
       "matches": [
         "*://reg.kku.ac.th/*",
         "*://reg-mirror.kku.ac.th/*"

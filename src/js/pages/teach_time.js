@@ -1,1 +1,1 @@
-addTitleBar('ตารางสอนอาจารย์', 'Teaching timetable', '\uf508');
+addTitleBar('ตารางสอนอาจารย์', 'Teaching timetable', 'presentation');

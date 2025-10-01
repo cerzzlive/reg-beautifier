@@ -65,16 +65,16 @@ div[align="center"] > #wrapper {
                             > font[color="#000090"] {
                               color: $primary !important;
                               &:before {
-                                content: '\f06a';
-                                font-family: 'fa-solid';
+                                content: '\ea05'; // ti-alert-circle
+                                font-family: 'tabler-icons-outline';
                                 margin-right: 0.5em;
                               }
                             }
                             > font[color="#009000"] {
                               color: $success !important;
                               &:before {
-                                content: '\f058';
-                                font-family: 'fa-solid';
+                                content: '\ea67'; // ti-circle-check
+                                font-family: 'tabler-icons-outline';
                                 margin-right: 0.5em;
                               }
                             }
@@ -129,8 +129,8 @@ form[action="stdreportsearch.asp"] > table > tbody {
         border-radius: 0.125rem;
         color: $gray-600 !important;
         &:before {
-          content: '\f05a';
-          font-family: fa-solid;
+          content: '\eac5'; // ti-info-circle
+          font-family: tabler-icons-outline;
           margin-right: 0.5em;
         }
         > font[color="#000090"] {
@@ -163,8 +163,8 @@ form[action="stdreportsearch.asp"] > table > tbody {
       padding-block-end: 1rem;
       color: $gray-600 !important;
       &:before {
-        content: '\f05a';
-        font-family: 'fa-solid';
+        content: '\eac5'; // ti-info-circle
+        font-family: 'tabler-icons-outline';
         margin-right: 0.5em;
       }
     }

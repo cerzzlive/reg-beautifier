@@ -1,1 +1,1 @@
-addTitleBar('รายงานตัวนักศึกษาใหม่', 'New student registration', '\uf234');
+addTitleBar('รายงานตัวนักศึกษาใหม่', 'New student registration', 'user-plus');

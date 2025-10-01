@@ -1,1 +1,1 @@
-addTitleBar('วิชาที่เปิดสอน', 'Opening Classes', '\uf518');
+addTitleBar('วิชาที่เปิดสอน', 'Opening Classes', 'book');

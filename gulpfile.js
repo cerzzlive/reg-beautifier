@@ -23,7 +23,7 @@ function cleanImage() {
 }
 
 function cleanFont() {
-    return src(['dist/webfonts'], {read: false, allowEmpty: true})
+    return src(['dist/fonts'], {read: false, allowEmpty: true})
         .pipe(clean());
 }
 
@@ -48,14 +48,14 @@ function copyImage() {
 }
 
 function copyFont() {
-    return src('node_modules/@fortawesome/fontawesome-free/webfonts/**/*')
-        .pipe(dest('dist/webfonts'));
+    return src('node_modules/@tabler/icons-webfont/dist/fonts/**/*')
+        .pipe(dest('dist/fonts'));
 }
 
 function buildCss() {
     return src('src/scss/**/*.scss')
         .pipe(gulpif(!isProd, sourcemaps.init()))
-        .pipe(sass().on('error', sass.logError))
+        .pipe(sass({charset: false}).on('error', sass.logError))
         .pipe(gulpif(isProd, cssnano()))
         .pipe(gulpif(!isProd, sourcemaps.write()))
         .pipe(dest('dist/css'))

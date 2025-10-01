@@ -138,12 +138,12 @@ describe('addTitleBar', () => {
       </div>
     `;
 
-    addTitleBar('ชื่อไทย', 'English Title', '\uf015', 'fas');
+    addTitleBar('ชื่อไทย', 'English Title', 'home');
 
     const titleBar = document.querySelector('.title-bar');
     expect(titleBar).toBeTruthy();
     expect(titleBar.textContent).toContain('ชื่อไทย');
-    expect(titleBar.innerHTML).toContain('fas');
+    expect(titleBar.innerHTML).toContain('ti ti-home');
   });
 
   test('should add title bar with English title when language is en', () => {

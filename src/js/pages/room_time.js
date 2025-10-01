@@ -1,1 +1,1 @@
-addTitleBar('ตารางการใช้ห้อง', `Room's timetable`, '\uf549');
+addTitleBar('ตารางการใช้ห้อง', `Room's timetable`, 'door-enter');

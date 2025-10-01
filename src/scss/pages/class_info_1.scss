@@ -109,8 +109,8 @@ div[align="center"] > #wrapper {
                             padding-left: 1.5rem;
                             > a[href="#bottom"] {
                               &:before {
-                                content: '\f103';
-                                font-family: fa-solid;
+                                content: '\ea66'; // ti-chevrons-up
+                                font-family: tabler-icons-outline;
                               }
                               &:hover {
                                 text-decoration: none !important;
@@ -122,8 +122,8 @@ div[align="center"] > #wrapper {
                           }
                           &:nth-child(3) {
                             &:before {
-                              content: '\f06a';
-                              font-family: fa-solid;
+                              content: '\ea05'; // ti-alert-circle
+                              font-family: tabler-icons-outline;
                               margin-right: 0.5em;
                             }
                           }

@@ -1,1 +1,1 @@
-addTitleBar('คำเตือน', 'Warning', '\uf06a');
+addTitleBar('คำเตือน', 'Warning', 'alert-circle');

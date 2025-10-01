@@ -1,1 +1,1 @@
-addTitleBar('ข้อมูลรายวิชา', 'Course info', '\uf518');
+addTitleBar('ข้อมูลรายวิชา', 'Course info', 'book');

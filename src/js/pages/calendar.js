@@ -1,1 +1,1 @@
-addTitleBar('ปฏทินการลงทะเบียน', 'Enrollment calendar', '\uf073');
+addTitleBar('ปฏทินการลงทะเบียน', 'Enrollment calendar', 'calendar');

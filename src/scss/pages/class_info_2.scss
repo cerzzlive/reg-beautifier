@@ -114,8 +114,8 @@ div[align="center"] > #wrapper {
                           background-color: $gray-100 !important;
                           color: $gray-600;
                           &:before {
-                            content: '\f05a';
-                            font-family: fa-solid;
+                            content: '\eac5'; // ti-info-circle
+                            font-family: tabler-icons-outline;
                             margin-right: 0.5em;
                           }
                         }
@@ -157,8 +157,8 @@ div[align="center"] > #wrapper {
                           }
 
                           &:before {
-                            content: '\f3c5';
-                            font-family: 'fa-solid';
+                            content: '\fd30'; // ti-calendar-week
+                            font-family: 'tabler-icons-outline';
                             margin-right: 8px;
                           }
 
@@ -298,8 +298,8 @@ div[align="center"] > #wrapper {
               }
               &:before {
                 font-size: 3rem;
-                content: '\f06a';
-                font-family: 'fa-solid';
+                content: '\ea05'; // ti-alert-circle
+                font-family: 'tabler-icons-outline';
                 color: $gray-500;
                 margin-bottom: 1rem;
               }
@@ -350,8 +350,8 @@ div[align="center"] > #wrapper {
 ----------------- */
 a[href*="student_inclass"] {
   &:before {
-    content: '\f0c0';
-    font-family: 'fa-solid';
+    content: '\ebf2'; // ti-users
+    font-family: 'tabler-icons-outline';
   }
   &:hover {
     text-decoration: none !important;
@@ -367,8 +367,8 @@ a[href*="class_info_2"][href*="Semester="] {
       text-decoration: none !important;
     }
     &:before {
-      content: '\f359';
-      font-family: 'fa-solid';
+      content: '\eae9'; // ti-map
+      font-family: 'tabler-icons-outline';
       font-size: 1.5rem;
       margin-left: 0.5em;
       margin-right: 0.15em;
@@ -379,8 +379,8 @@ a[href*="class_info_2"][href*="Semester="] {
   }
   &:last-child {
     &:before {
-      content: '\f35a';
-      font-family: 'fa-solid';
+      content: '\eae8'; // ti-map-pin
+      font-family: 'tabler-icons-outline';
       font-size: 1.5rem;
       margin-left: 0.25em;
       margin-right: 0.5em;

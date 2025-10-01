@@ -101,7 +101,7 @@ div[align="center"] > #wrapper {
                                 text-decoration: none;
                               }
                               &:before {
-                                font-family: 'fa-solid';
+                                font-family: 'tabler-icons-outline';
                               }
                               > img {
                                 display: none;
@@ -109,7 +109,7 @@ div[align="center"] > #wrapper {
                             }
                             > a[href*="RTF"] {
                               &:before {
-                                content: '\f1c2';
+                                content: '\f03e'; // ti-file-spreadsheet
                               }
                               &:hover {
                                 color: $primary !important;
@@ -117,7 +117,7 @@ div[align="center"] > #wrapper {
                             }
                             > a[href*="Excel"] {
                               &:before {
-                                content: '\f1c3';
+                                content: '\eb0a'; // ti-photo
                               }
                               &:hover {
                                 color: $success !important;
@@ -136,8 +136,8 @@ div[align="center"] > #wrapper {
                             color: $gray-800;
 
                             &:before {
-                              content: '\f0e8';
-                              font-family: fa-solid;
+                              content: '\eb9d'; // ti-sitemap
+                              font-family: tabler-icons-outline;
                               margin-right: 0.5em;
                             }
                           }
@@ -157,8 +157,8 @@ div[align="center"] > #wrapper {
 
                             img[src*="pull_down"] + a {
                               &:before {
-                                content: '\f15d';
-                                font-family: fa-solid;
+                                content: '\ecf7'; // ti-school
+                                font-family: tabler-icons-outline;
                                 margin-right: 0.5em;
                               }
                             }

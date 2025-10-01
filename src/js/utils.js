@@ -9,7 +9,7 @@ export function getCurrentLanguage() {
   return languages[lang] || languages[0];
 }
 
-export function addTitleBar(title_th, title_en, icon = null, icon_class = 'fas') {
+export function addTitleBar(title_th, title_en, icon = null) {
   const contentContainer = document.querySelector(
     '#wrapper > table > tbody > tr > td:nth-of-type(2)'
   );
@@ -20,7 +20,10 @@ export function addTitleBar(title_th, title_en, icon = null, icon_class = 'fas')
   const title = getCurrentLanguage() === 'th' ? title_th : title_en;
   const titleBar = document.createElement('header');
   titleBar.className = 'title-bar';
-  titleBar.innerHTML = `<i class="${icon_class}">${icon || ''}</i><h1>${title}</h1>`;
+
+  // Use Tabler Icons class-based approach: <i class="ti ti-{icon-name}"></i>
+  const iconHtml = icon ? `<i class="ti ti-${icon}"></i>` : '';
+  titleBar.innerHTML = `${iconHtml}<h1>${title}</h1>`;
 
   contentContainer.insertBefore(titleBar, contentContainer.firstChild);
 }

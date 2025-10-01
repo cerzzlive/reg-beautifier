@@ -80,10 +80,10 @@ div[align="center"] > #wrapper {
                       color: $red !important;
                       background-color: $gray-100;
                       &:before {
-                        content: "\f02b";
+                        content: '\ee74'; // ti-tag
                         margin-right: 0.5em;
                         //noinspection CssNoGenericFontName
-                        font-family: "fa-solid";
+                        font-family: "tabler-icons-outline";
                       }
                     }
                   }

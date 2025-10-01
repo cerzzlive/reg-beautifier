@@ -71,8 +71,8 @@ div[align="center"] > #wrapper {
                     color: $gray-600 !important;
                     background-color: $gray-200 !important;
                     &:before {
-                      content: '\f05a';
-                      font-family: 'fa-solid';
+                      content: '\eac5'; // ti-info-circle
+                      font-family: 'tabler-icons-outline';
                       margin-right: 0.5em;
                     }
                     > font[color="#800000"] {

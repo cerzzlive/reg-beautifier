@@ -1,130 +1,130 @@
+// Tabler Icons mapping for sidebar navigation
+// Converted from Font Awesome to Tabler Icons
 @mixin sidebar_icons {
 
   a {
 
     &[href*="home"]:not([href*="academiccalendar"]):not([href*="room_time"]), &[href*="HOME"] {
       &:before {
-        content: '\f359';
+        content: '\eae9'; // ti-map (was fa-map)
       }
     }
 
     &[href="JavaScript:history.back();"] {
       &:before {
-        content: '\f359';
+        content: '\eae9'; // ti-map
       }
     }
 
     &[href*="login"] {
       &:before {
-        content: '\f2f6';
+        content: '\eba7'; // ti-login (was fa-sign-in)
       }
     }
 
     &[href*="stdreportsearch"] {
       &:before {
-        content: '\f234';
+        content: '\eb4b'; // ti-user-plus (was fa-user-plus)
       }
     }
 
     &[href*="academiccalendar"] {
       &:before {
-        content: '\f073';
+        content: '\ea53'; // ti-calendar (was fa-calendar)
       }
     }
 
     &[href*="calendar"]:not([href*="academiccalendar"]) {
       &:before {
-        content: '\f073';
-        //noinspection CssNoGenericFontName
-        font-family: 'fa-regular';
+        content: '\ea53'; // ti-calendar
       }
     }
 
     &[href*="tqf"] {
       &:before {
-        content: '\f022';
+        content: '\eaa2'; // ti-file-text (was fa-list-alt)
       }
     }
 
     &[href*="gsmis"] {
       &:before {
-        content: '\f022';
+        content: '\eaa2'; // ti-file-text
       }
     }
 
     &[href*="financial"] {
       &:before {
-        content: '\f53d';
+        content: '\ea55'; // ti-cash (was fa-money-bill)
       }
     }
 
     &[href*="teach_time"] {
       &:before {
-        content: '\f508';
+        content: '\eb70'; // ti-presentation (was fa-chalkboard-teacher)
       }
     }
 
     &[href*="room_time"]:not([href*="printfriendly"]) {
       &:before {
-        content: '\f549';
+        content: '\ef4c'; // ti-door-enter (was fa-door-open)
       }
     }
 
     &[href*="class_info"] {
       &:before {
-        content: '\f518';
+        content: '\ea39'; // ti-book (was fa-book-open)
       }
     }
 
     &[href*="class_status"] {
       &:before {
-        content: '\f46c';
+        content: '\ea6c'; // ti-clipboard-check (was fa-clipboard-check)
       }
     }
 
     &[href*="registerGraduate"] {
       &:before {
-        content: '\f501';
+        content: '\ecf7'; // ti-school (was fa-graduation-cap)
       }
     }
     &[href*="graduate_date"] {
       &:before {
-        content: '\f19d';
+        content: '\ed76'; // ti-certificate (was fa-graduation)
       }
     }
     &[href*="thesis"] {
       &:before {
-        content: '\f02d';
+        content: '\ea3a'; // ti-bookmark (was fa-bookmark)
       }
     }
     &[href*="feedback_allans"] {
       &:before {
-        content: '\f086';
+        content: '\eaef'; // ti-message (was fa-comment)
       }
     }
     &[href*="enrollguide"] {
       &:before {
-        content: '\f05a';
+        content: '\eac5'; // ti-info-circle (was fa-info-circle)
       }
     }
     &[href*="downloadform"] {
       &:before {
-        content: '\f019';
+        content: '\ea96'; // ti-download (was fa-download)
       }
     }
     &[href*="regMis"] {
       &:before {
-        content: '\f080';
+        content: '\ea58'; // ti-chart-area (was fa-chart-area)
       }
     }
     &[href*="graduateList"] {
       &:before {
-        content: '\f46d';
+        content: '\ea6d'; // ti-clipboard-list (was fa-clipboard-list)
       }
     }
     &[href*="RSS"] {
       &:before {
-        content: '\f143';
+        content: '\eb19'; // ti-rss (was fa-rss)
       }
       img {
         display: none;
@@ -132,7 +132,7 @@
     }
     &[href*="printfriendly"] {
       &:before {
-        content: '\f02f';
+        content: '\eb0e'; // ti-printer (was fa-print)
       }
       img {
         display: none;
@@ -142,77 +142,77 @@
     // student page
     &[href*="logout"] {
       &:before {
-        content: '\f2f5';
+        content: '\eba8'; // ti-logout (was fa-sign-out)
       }
     }
     &[href*="changepwd_link"] {
       &:before {
-        content: '\f084';
+        content: '\eac7'; // ti-key (was fa-key)
       }
     }
     &[href*="request_first"] {
       &:before {
-        content: '\f570';
+        content: '\eaa0'; // ti-file-plus (was fa-file-medical)
       }
     }
     &[href*="enroll_result"] {
       &:before {
-        content: '\f46c';
+        content: '\ea6c'; // ti-clipboard-check
       }
     }
     &[href*="biblio"] {
       &:before {
-        content: '\f2bb';
+        content: '\eac3'; // ti-id (was fa-id-badge)
       }
     }
     &[href*="debt"] {
       &:before {
-        content: '\f53d';
+        content: '\ea55'; // ti-cash
       }
     }
     &[href*="grade"] {
       &:before {
-        content: '\f091';
+        content: '\eb45'; // ti-trophy (was fa-trophy)
       }
     }
     &[href*="regPrintVoucher"] {
       &:before {
-        content: '\f571';
+        content: '\edfd'; // ti-receipt (was fa-receipt)
       }
     }
     &[href*="sac_activity"] {
       &:before {
-        content: '\f135';
+        content: '\ec45'; // ti-rocket (was fa-rocket)
       }
     }
     &[href*="graduate_check"] {
       &:before {
-        content: '\f0ae';
+        content: '\efc5'; // ti-book-2 (was fa-book-reader)
       }
     }
     &[href*="time_table"] {
       &:before {
-        content: '\f00b';
+        content: '\eb6b'; // ti-list (was fa-list)
       }
     }
     &[href*="studentByProgram"] {
       &:before {
-        content: '\f0c0';
+        content: '\ebf2'; // ti-users (was fa-users)
       }
     }
     &[href*="requestdoc"] {
       &:before {
-        content: '\f044';
+        content: '\ea98'; // ti-edit (was fa-edit)
       }
     }
     &[href*="suggestion"] {
       &:before {
-        content: '\f4ad';
+        content: '\ea51'; // ti-bulb (was fa-lightbulb)
       }
     }
     &[href*="webuser_list"] {
       &:before {
-        content: '\f1da';
+        content: '\eac3'; // ti-id (was fa-id-card)
       }
     }
 
@@ -226,7 +226,7 @@
     &[href*="graduateList"],
     &[href*="regPrintVoucher"] {
       &:after {
-        content: '\f35d';
+        content: '\ea99'; // ti-external-link (was fa-external-link-alt)
         opacity: 0.4;
       }
     }
